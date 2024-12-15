@@ -1,28 +1,28 @@
-# examen-
-Ciencias de Datos para la Economía
+# examen
+## Ciencias de Datos para la Economía
 Descripción del Proyecto
 Este proyecto tiene como objetivo aplicar análisis de componentes principales (PCA) para reducir la dimensionalidad de un conjunto de datos relacionado con las características socioeconómicas y de salud de individuos. El dataset incluye variables como ingresos, educación, edad, entre otros factores.
 
 El PCA permite simplificar la estructura de los datos al conservar la mayor parte de la información original en menos dimensiones, facilitando la visualización y el análisis.
 
-Estructura del Proyecto
+## Estructura del Proyecto
 Análisis Exploratorio de Datos (EDA):
 
-Carga y limpieza del dataset.
+## Carga y limpieza del dataset.
 Transformación de variables categóricas a formato numérico.
 Análisis descriptivo y matriz de correlación para identificar relaciones lineales.
 Preparación de los datos:
 
-Selección de variables numéricas relevantes.
+## Selección de variables numéricas relevantes.
 Aplicación de escalamiento con StandardScaler para garantizar igualdad de importancia entre variables.
 Aplicación del PCA:
 
-Reducción de dimensionalidad a 2 componentes principales.
+## Reducción de dimensionalidad a 2 componentes principales.
 Análisis de la varianza explicada por cada componente.
 Visualización gráfica de los componentes principales (PC1 y PC2).
 Explicación de los Supuestos del PCA:
 
-Linealidad de las variables.
+## Linealidad de las variables.
 Uso exclusivo de datos numéricos.
 Captura de máxima varianza.
 Independencia (ortogonalidad) de los componentes principales.
