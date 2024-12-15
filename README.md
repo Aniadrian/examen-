@@ -5,36 +5,38 @@ Este proyecto tiene como objetivo aplicar análisis de componentes principales (
 
 El PCA permite simplificar la estructura de los datos al conservar la mayor parte de la información original en menos dimensiones, facilitando la visualización y el análisis.
 
-## Estructura del Proyecto
+### Estructura del Proyecto
 Análisis Exploratorio de Datos (EDA):
 
-## Carga y limpieza del dataset.
+### Carga y limpieza del dataset.
 Transformación de variables categóricas a formato numérico.
 Análisis descriptivo y matriz de correlación para identificar relaciones lineales.
 Preparación de los datos:
 
-## Selección de variables numéricas relevantes.
+### Selección de variables numéricas relevantes.
 Aplicación de escalamiento con StandardScaler para garantizar igualdad de importancia entre variables.
-Aplicación del PCA:
 
-## Reducción de dimensionalidad a 2 componentes principales.
+### Aplicación del PCA:
+Reducción de dimensionalidad a 2 componentes principales.
 Análisis de la varianza explicada por cada componente.
 Visualización gráfica de los componentes principales (PC1 y PC2).
-Explicación de los Supuestos del PCA:
 
-## Linealidad de las variables.
+### Explicación de los Supuestos del PCA:
+Linealidad de las variables.
 Uso exclusivo de datos numéricos.
 Captura de máxima varianza.
 Independencia (ortogonalidad) de los componentes principales.
 Escalamiento previo de las variables.
-Requisitos y Librerías Utilizadas
+
+## Requisitos y Librerías Utilizadas
 Este proyecto fue desarrollado en Python, utilizando las siguientes librerías:
 
 pandas - Manipulación y análisis de datos.
 numpy - Operaciones numéricas.
 matplotlib y seaborn - Visualización de datos.
 sklearn - Implementación del algoritmo PCA y escalamiento de datos.
-Resultados
+
+### Resultados
 Matriz de Correlación: Se identificaron relaciones lineales entre variables como estatura y peso, lo cual valida la aplicabilidad del PCA.
 
 Varianza Explicada: Los dos primeros componentes principales capturan aproximadamente 44.24% de la varianza total de los datos.
