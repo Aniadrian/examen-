@@ -42,3 +42,7 @@ Matriz de Correlación: Se identificaron relaciones lineales entre variables com
 Varianza Explicada: Los dos primeros componentes principales capturan aproximadamente 44.24% de la varianza total de los datos.
 
 Gráfica de PCA: La visualización en 2D permite observar la distribución de los datos en el espacio reducido definido por los componentes PC1 y PC2.
+
+## ejecucion del proyecto
+git https://github.com/lmeneses7/Prediccion_Ingresos
+cd Prediccion_Ingresos
